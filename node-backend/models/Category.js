@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+npm init -y
+npm install express mongoose body-parser cors bcrypt jsonwebtoken multerconst mongoose = require('mongoose');
 
 const CategorySchema = new mongoose.Schema({
     name: { type: String, required: true, unique: true },
